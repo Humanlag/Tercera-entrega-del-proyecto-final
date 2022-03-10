@@ -1,0 +1,230 @@
+@charset "UTF-8";
+html {
+  /*fuente para todo el html*/
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+#titulo {
+  color: whitesmoke;
+}
+
+video {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+body {
+  /*dimensiones que tiene el body*/
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+body header {
+  color: whitesmoke;
+  text-shadow: 0.1em 0.1em 0.4em black;
+  padding: 1rem 1rem 24rem;
+  height: auto;
+  background-image: url("multimedia/Fondo Ipad.jpeg");
+  /*imagen de fondo header*/
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+body header h1 {
+  /*tamaño del título "INCUBA CIENCIA"*/
+  font-size: 4rem;
+  text-align: center;
+}
+
+body header nav div .navegador, body header nav div .navegador__1, body header nav div .navegador__2, body header nav div .navegador__3, body header nav div .navegador__4 {
+  /*dimensiones que toman los links*/
+  padding: 1rem 1rem 3rem;
+  background-color: white;
+  text-align: right;
+  text-decoration: none;
+  color: none;
+}
+
+body header nav div a:link {
+  /*colores que van a tomar los links*/
+  color: black;
+}
+
+body header nav div a:visited {
+  color: black;
+}
+
+body header nav div a:hover {
+  color: #d8d822;
+}
+
+body header nav div a:active {
+  color: #d8d822;
+}
+
+body header nav div .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body main section div {
+  background-color: white;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  padding: 1rem 3rem 3rem;
+  cursor: pointer;
+  overflow: auto;
+}
+
+body main section div {
+  /*sección "nuestro equipo"*/
+  /*CONTACTO*/
+}
+
+body main section div #mail {
+  text-decoration: none;
+  color: white;
+}
+
+body main section div #imagen1 {
+  width: 10rem;
+  float: left;
+  padding: 1rem;
+}
+
+body main section div #imagen2 {
+  width: 10rem;
+  float: right;
+  padding: 1rem;
+}
+
+body main section div #imagen3 {
+  width: 10rem;
+  float: left;
+  padding: 1rem;
+}
+
+body main section div #carolina {
+  text-align: right;
+}
+
+body main section div .contact_form {
+  width: 460px;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding-left: 30px;
+}
+
+body main section div input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: whitesmoke;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+body main section div textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: whitesmoke;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+body main section div label {
+  display: block;
+  float: center;
+}
+
+body main section div button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: whitesmoke;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+}
+
+body main section div button p {
+  color: black;
+}
+
+body main section div span {
+  color: black;
+}
+
+body main section div .aviso {
+  font-size: 13px;
+  color: #0e0e0e;
+}
+
+body main section div h1 {
+  font-size: 39px;
+  text-align: letf;
+  padding-bottom: 20px;
+  color: black;
+}
+
+body main section div h3 {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #0e0e0e;
+}
+
+body main section div p {
+  font-size: 14px;
+  color: #0e0e0e;
+}
+
+body main section div ::-webkit-input-placeholder {
+  color: #a8a8a8;
+}
+
+body main section div ::-webkit-textarea-placeholder {
+  color: #a8a8a8;
+}
+
+body main section div .formulario input:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+body main section div .formulario textarea:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+body footer {
+  text-shadow: 0.1em 0.1em 0.4em black;
+  background-color: slategray;
+  padding: 50px 100px;
+  color: white;
+}
+/*# sourceMappingURL=estilos.css.map */

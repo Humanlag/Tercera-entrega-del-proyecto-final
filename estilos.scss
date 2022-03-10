@@ -1,0 +1,250 @@
+html {                                                              /*fuente para todo el html*/
+    font-family: Arial, Helvetica, sans-serif;                  
+}
+
+img {
+    max-width: 100%;
+}
+
+#titulo {
+    color: whitesmoke;
+}
+
+video {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+body {                                                              /*dimensiones que tiene el body*/
+    margin: 0;
+    background-color: whitesmoke;
+
+    header{
+        color: whitesmoke;
+        text-shadow: 0.1em 0.1em 0.4em black;
+        padding: 1rem 1rem 24rem;
+        height: auto;
+        background-image: url("multimedia/Fondo\ Ipad.jpeg");               /*imagen de fondo header*/
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+
+        h1 {                                                                    /*tamaño del título "INCUBA CIENCIA"*/
+            font-size: 4rem;
+            text-align: center;
+            
+        }
+
+        nav {
+
+            div {
+                .navegador, .navegador__1, .navegador__2, .navegador__3, .navegador__4 {       /*dimensiones que toman los links*/
+                    padding: 1rem 1rem 3rem;
+                    background-color: white;
+                    text-align: right;
+                    text-decoration: none;
+                    color: none;
+                }   
+        
+                a:link {                                                                      /*colores que van a tomar los links*/
+                    color: black;
+                }
+                a:visited {
+                    color: black;
+                }
+                a:hover {
+                    color: rgb(216, 216, 34);
+                }
+                a:active {
+                    color: rgb(216, 216, 34);
+                }
+                
+                .container {
+                    width: 80%;
+                    margin: 0 auto;
+                }
+            }
+        }   
+    }
+    
+    main {
+
+        section {
+
+            div {
+                background-color: white;                                                             
+                margin: 1rem;
+                border-radius: 0.5rem; 
+                padding: 1rem 3rem 3rem;
+                cursor: pointer;
+                overflow: auto;
+            }
+
+            div { 
+                #mail {
+                    text-decoration: none;
+                    color: white;
+                }
+                
+                                                    /*sección "nuestro equipo"*/
+                #imagen1 {
+                    width: 10rem;
+                    float: left;
+                    padding: 1rem;
+                
+                }
+                
+                #imagen2 {
+                    width: 10rem;
+                    float: right;
+                    padding: 1rem;
+                
+                }
+                
+                #imagen3 {
+                    width: 10rem;
+                    float: left;
+                    padding: 1rem;
+                
+                }
+                
+                #carolina {
+                    text-align: right;
+                }
+            
+
+                /*CONTACTO*/
+
+                .contact_form{  
+                    width: 460px; 
+                    height: auto;
+                    margin: 80px auto;
+                    border-radius: 10px;  
+                    padding-top: 30px;
+                    padding-bottom: 20px;  
+                    background-color: #fbfbfb; 
+                    padding-left: 30px; 
+                }
+                
+                
+                input{
+                    background-color: #fbfbfb; 
+                    width: 408px; 
+                    height: 40px; 
+                    border-radius: 5px;  
+                    border-style: solid; 
+                    border-width: 1px; 
+                    border-color: whitesmoke; 
+                    margin-top: 10px;  
+                    padding-left: 10px;
+                    margin-bottom: 20px; 
+                }
+                
+                
+                textarea{
+                    background-color: #fbfbfb; 
+                    width: 405px; 
+                    height: 150px; 
+                    border-radius: 5px;  
+                    border-style: solid; 
+                    border-width: 1px; 
+                    border-color: whitesmoke; 
+                    margin-top: 10px;  
+                    padding-left: 10px;
+                    margin-bottom: 20px; 
+                    padding-top: 15px; 
+                }
+                
+                
+                label{
+                    display: block; 
+                    float: center;  
+                }
+                
+                
+                button{
+                    height: 45px; 
+                    padding-left: 5px;
+                    padding-right: 5px;   
+                    margin-bottom: 20px; 
+                    margin-top: 10px;   
+                    text-transform: uppercase;
+                    background-color: whitesmoke; 
+                    border-color: black; 
+                    border-style: solid; 
+                    border-radius: 10px;  
+                    width: 420px;   
+                    cursor: pointer;
+                }
+                
+                
+                button p{
+                    color: black; 
+                }
+                
+                
+                span{
+                    color: black; 
+                }
+                
+                
+                .aviso{
+                    font-size: 13px;  
+                    color: #0e0e0e;  
+                }
+                
+                
+                h1{
+                    font-size: 39px;  
+                    text-align: letf; 
+                    padding-bottom: 20px; 
+                    color: black;
+                }
+                
+                
+                h3{
+                    font-size: 16px; 
+                    padding-bottom: 30px;
+                    color: #0e0e0e;   
+                }
+                
+                
+                p{
+                    font-size: 14px; 
+                    color: #0e0e0e; 
+                }
+                
+                
+                ::-webkit-input-placeholder {
+                color: #a8a8a8;
+                }
+                
+                
+                ::-webkit-textarea-placeholder {
+                color: #a8a8a8;
+                }
+                
+                
+                .formulario input:focus{
+                    outline:0;
+                    border: 1px solid #97d848;
+                }
+                
+                
+                .formulario textarea:focus{
+                    outline:0;
+                    border: 1px solid #97d848;
+                }
+            }
+        }
+    }
+
+    footer {
+        text-shadow:0.1em 0.1em 0.4em black;
+        background-color:slategray;
+        padding: 50px 100px;
+        color: white;
+    }
+}
